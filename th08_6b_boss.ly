@@ -206,6 +206,11 @@ upper = \relative c'{
 		des16 ges aes8 <bes des>16 ges bes8 aes,16 ees' aes ees' des ees bes c 
 	}
 	
+	\relative c'{
+		%TODO add the lasting C
+		bes16 c des f bes c des f bes c des f des c bes f
+	}
+	
 	{
 		\key b \minor
 		\relative c'''{
@@ -224,8 +229,53 @@ upper = \relative c'{
 		}
 		
 		\relative c''{
+			%TODO let the left hand handle the lasting D
 			d16 g a8 <b d>16 g b8 a,16 e' a e' d e b cis
 			b,, cis d fis b cis d fis b cis d fis d cis b fis
+		}
+		
+		\relative c'''{
+			b4 fis b4 fis8 fis8
+			cis'8. d16~ d8 e d cis a4
+			b4 fis b fis8 cis'
+			d8 fis, cis' fis,16 b d, a' cis, d e fis a8
+			b4 fis b fis
+			fis8 cis' d e d cis a4
+			b4 fis b fis8 a
+			b1
+		}
+		
+		
+		%the ending
+		\relative c''{
+			\key ees \minor
+			aes16 ees' des ees aes ees des ees 
+			aes, e' ees f aes e ees e
+			aes, f' e f aes f e f 
+			aes, e' ees e aes e ees e 
+			
+			
+		}
+		
+		\relative c''{
+			aes16 ees' des ees aes ees des ees 
+			aes, e' ees f aes e ees e
+			aes, f' e f aes f e f 
+			aes, e' ees e aes e ees e 
+		}
+		
+		\relative c''{
+			aes16 ees' des ees aes ees des ees 
+			aes, e' ees f aes e ees e
+			aes, f' e f aes f e f 
+			aes, e' ees e aes e ees e 
+		}
+		
+		\relative c''{
+			aes16 ees' des ees aes ees des ees 
+			aes, e' ees f aes e ees e
+			aes, f' e f aes f e f 
+			aes, f' ges aes <aes ees' ges>4
 		}
 	}
 }
@@ -244,6 +294,94 @@ lower = \relative c {
 	<c g'> <des aes'>
 	<bes f'> <c g'>
 	<des aes'> <ees bes'>
+	
+	%WIP in this part
+	r1
+	r1
+	r1
+	r1
+	r1
+	r1
+	r1
+	r1
+	
+	%easy mode
+	\relative c'{
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r1
+		r2. f,16 aes c f,
+	}
+	
+	
+	
+	{
+		\relative c'{
+			f,16 c' f8 f,16 f' ees f ees f r8 f16 f, f'8
+		}
+		\relative c'{
+			ees,16 bes' ees8 ees,16 ees' ees8 des16 ees r8 ees16 ees, ees'8
+		}
+		\relative c'{
+			des,16 aes' des8 c16 des des,8 c'16 des8 des16 des,16 des'16 des,8
+		}
+		\relative c'{
+			des,16 des des' des, c' des des,8 c'16 des r8 des16 c des8
+		}
+		
+		\relative c'{
+			f,16 c' f8 f,16 f' ees f ees f r8 f16 f, f'8
+		}
+		\relative c'{
+			ees,16 bes' ees8 ees,16 ees' ees8 des16 ees r8 ees16 des ees'8
+		}
+		\relative c'{
+			d,16 g d'8 d,16 d' d,8 des'16 d r16 d,16 d' d, d'8
+		}
+		\relative c'{
+			d,16 d d' d, g d' bes8 bes16 d16 r8 d16 bes16 d8
+		}
+		\relative c'{
+			des,16 aes' des8 des,16 des' aes des c des r8 des16 des,16 des'8
+		}
+		
+		\relative c'{
+			ees,16 bes' ees8 ees,16 bes' ees8 des16 ees r8 ees16 des16 ees8
+		}
+		
+		\relative c'{
+			f,16 aes c8 f16 f c8 ees16 f f, r f' ees f8
+		}
+		
+		\relative c'{
+			f,16 aes c f ees f ees8 ees16 f r8 f16 ees f8
+		}
+		
+		\relative c'{
+			des,16 aes' des8 des,16 des' aes des c des r8 des16 des, des'8
+		}
+		
+		\relative c'{
+			ees,16 bes' ees8 ees,16 bes' ees8 des16 ees16 r8 ees16 des ees8
+		}
+		r1
+		r1
+		r2
+	}
 }
 
 \score {
